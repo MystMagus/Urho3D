@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2008-2019 the Urho3D project.
+// Copyright (c) 2008-2020 the Urho3D project.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -43,6 +43,8 @@ enum CompressedFormat
     CF_DXT3,
     CF_DXT5,
     CF_ETC1,
+    CF_ETC2_RGB,
+    CF_ETC2_RGBA,
     CF_PVRTC_RGB_2BPP,
     CF_PVRTC_RGBA_2BPP,
     CF_PVRTC_RGB_4BPP,
