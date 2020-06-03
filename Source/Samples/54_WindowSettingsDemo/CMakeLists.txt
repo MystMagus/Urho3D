@@ -20,16 +20,8 @@
 # THE SOFTWARE.
 #
 
-if (NOT URHO3D_NETWORK)
-    return ()
-endif ()
-
 # Define target name
-set (TARGET_NAME 43_HttpRequestDemo)
-
-if (URHO3D_SSL)
-    add_definitions (-DURHO3D_SSL)
-endif ()
+set (TARGET_NAME 54_WindowSettingsDemo)
 
 # Define source files
 define_source_files (EXTRA_H_FILES ${COMMON_SAMPLE_H_FILES})
